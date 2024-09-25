@@ -6,9 +6,12 @@ package javaapplication5;
 
 import java.util.Scanner;
 
+
+
 /**
  *
- * @author JAZIEL
+ * @author Gabriela 
+ * 
  */
 public class JavaApplication5 {
 
@@ -16,24 +19,30 @@ public class JavaApplication5 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
-      Sca2ner scanner = new Scanner(System.in);
+        //Inicio el Scanner. 
+      Scanner scanner = new Scanner(System.in);
 
-        // Declaración de los arreglos
+        // Declaro los arreglos
         int[] arreglo1 = new int[7];
         int[] arreglo2 = new int[7];
+        
+        //Arreglo 3, con la diferencia de los primeros arreglos. 
+        
+        // Esta vacío, solo tiene el tipo de dato que almacena 
+        //Nota, en Java SIEMPRE debo especificar el tipo de dato 
         int[] arregloDiferencia = new int[7];
         int suma = 0;
 
         // Llenar arreglo1
         for (int i = 0; i < 7; i++) {
-            System.out.println("Ingrese el número para arreglo1 en la posición " + i + ":");
+            System.out.println("Ingrese el numero para arreglo1 en la posicion " + i + ":");
+            //llamo a escaner, (lo que en py es input o pseint es leer)
             arreglo1[i] = scanner.nextInt();
         }
 
         // Llenar arreglo2
         for (int i = 0; i < 7; i++) {
-            System.out.println("Ingrese el número para arreglo2 en la posición " + i + ":");
+            System.out.println("Ingrese el numero para arreglo2 en la posicion " + i + ":");
             arreglo2[i] = scanner.nextInt();
         }
 

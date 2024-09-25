@@ -16,13 +16,13 @@ Algoritmo arreglos
 		
 		// Recorrer  el primer arreglo y lo lleno
 		Para i <- 1 Hasta 7 Con Paso 1 Hacer
-			Escribir "Ingrese el número para arreglo1 en la posición ", i, ":"
+			Escribir "Ingrese el numero para arreglo1 en la posicion ", i, ":"
 			Leer arreglo1[i]
 		FinPara
 		
 		//Recorrer  el segundo arreglo y lo lleno
 		Para i <- 1 Hasta 7 Con Paso 1 Hacer
-			Escribir "Ingrese el número para arreglo2 en la posición ", i, ":"
+			Escribir "Ingrese el numero para arreglo2 en la posicion ", i, ":"
 			Leer arreglo2[i]
 		FinPara
 		
@@ -30,7 +30,7 @@ Algoritmo arreglos
 		Para i <- 1 Hasta 7 Con Paso 1 Hacer
 			arregloDiferencia[i] = arreglo1[i] - arreglo2[i]
 			
-		//Asigno a la varible suma la expresión, suma + arregloDiferencia
+		//Asigno a la varible suma la expresion, suma + arregloDiferencia
 			suma = suma + arregloDiferencia[i]
 		FinPara
 		
@@ -40,7 +40,7 @@ Algoritmo arreglos
 		// Mostrar los valores del tercer arreglo
 		Escribir "Valores del tercer arreglo (diferencia):"
 		Para i <- 1 Hasta 7 Con Paso 1 Hacer
-			Escribir "Posición ", i, ": ", arregloDiferencia[i]
+			Escribir "Posicion ", i, ": ", arregloDiferencia[i]
 		FinPara
 		
 		// Mostrar el promedio
